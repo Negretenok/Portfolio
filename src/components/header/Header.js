@@ -18,8 +18,8 @@ const Header = () => {
                     <button className='navbarHead' onClick={() => scrollToSection(section1Ref)}>Про меня</button>
                     {/* <button className='navbarHead' onClick={() => scrollToSection(section2Ref)}>Опыт</button> */}
                     <button className='navbarHead' onClick={() => scrollToSection(section2Ref)}>Инструменты</button>
-                    <button className='navbarHead' onClick={() => scrollToSection(section3Ref)}>Проекты</button>
-                    <button className='navbarHead' onClick={() => scrollToSection(section4Ref)}>Контакты</button>
+                    <button className='navbarHead' >Проекты</button>
+                    <button className='navbarHead' >Контакты</button>
                 </div>
             </header>
      );
