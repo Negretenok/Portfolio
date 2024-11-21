@@ -3,11 +3,11 @@ import logo from './logo.png'
 import { useScroll } from '../ScrollContext'; // Импортируем контекст
 
 const Header = () => {
-    const { scrollToSection, section1Ref, section2Ref, section3Ref,section4Ref } = useScroll();
+    const { scrollToSection, section1Ref, section2Ref} = useScroll();
     return ( 
             <header className="header">
                 <div className='headerLogo'>
-                    <img src={logo}/>
+                    <img src={logo}alt='logo'/>
                 </div>
                 <div className='headerNav'>
                     {/* <a href='footer' className='navbarHead'>Про меня</a>

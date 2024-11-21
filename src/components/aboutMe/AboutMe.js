@@ -12,7 +12,7 @@ const AboutMe = () => {
                 <h1>Про меня</h1>
             </div>
             <div className='MyName'>
-                <img src={myPhoto}/>
+                <img src={myPhoto} alt='myPhoto'/>
                 <h2>Мое имя Нуржигит</h2>
             </div>
             <div className='Description'>
@@ -23,13 +23,13 @@ const AboutMe = () => {
                 <div className='Skeel'>
                     <div>
 
-                    <img src={myonitor}/>
+                    <img src={myonitor} alt='myonitor'/>
                     </div>
                     <h1>Web-Сайты</h1>
                 </div>
                 <div className='Skeel'>
                     <div>
-                    <img src={mobile}/>
+                    <img src={mobile} alt='mobile'/>
 
                     </div>
                     <h1>Mobile App</h1>

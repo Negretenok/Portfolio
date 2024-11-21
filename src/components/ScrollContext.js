@@ -13,7 +13,7 @@ export const ScrollProvider = ({ children }) => {
   const section1Ref = useRef(null);
   const section2Ref = useRef(null);
   const section3Ref = useRef(null);
-  const section4Ref = useRef(null);
+  // const section4Ref = useRef(null);
 
   // Функция для прокрутки к нужному разделу
   const scrollToSection = (sectionRef) => {
