@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1e1c;
+    padding: 25px 50px;
+}
+.footerLogo{
+    width: 660px;
+
+}
+.footerLogo img{
+    height: 50px;
+    width: 60px;
+}
+.footerTitle{
+    width: 660px;
+    color: white;
+    text-align: center;
+}
+.footerContact{
+    width: 660px;
+    text-align: center;
+    color: white;
+}
+.contacts{
+    margin-left: 100px ;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 100px;
+}

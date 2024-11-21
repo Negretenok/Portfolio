@@ -1,0 +1,81 @@
+.AboutMe{
+    margin: 0;
+    background: rgb(31,30,28);
+    background: linear-gradient(0deg, rgba(31,30,28,1) 1%, rgba(79,82,86,1) 50%, rgba(31,30,28,1) 99%);
+    justify-items: center;
+    padding-top: 50px;
+    color: white;
+}
+.aboutme{
+    margin-top: -70px;
+}
+/* .aboutme h1{
+    font-size: 50px;
+    color: white; /* Цвет текста */
+    
+
+.aboutme h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative;
+  }
+
+  .aboutme h1::after {
+    content: ''; /* Псевдоэлемент для линии */
+    position: absolute;
+    left: 0;
+    margin-left: 60px;
+    bottom: 0; /* Линия под текстом */
+    width: 50%; /* Длина линии равна тексту */
+    height: 4px; /* Толщина линии */
+    background-color:#30a7e2; /* Цвет линии */
+  }
+.MyName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+}
+.MyName img{
+    border-radius: 1000px;
+    height: 150px;
+    margin-right: 40px;
+}
+.MyName h2{
+    /* background-color: #30a7e2; */
+    font-size: 34px;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 15px;
+}
+.Description{
+    width: 900px;
+}
+.Description p{
+    font-size: 14px;
+}
+.MySkeels{
+    display: flex;
+    margin-top: 40px;
+    width: 750px;
+    justify-content: space-between;
+
+}
+.Skeel{
+    display: flex;
+}
+.Skeel img{
+    height: 70px;
+}
+.Skeel div{
+    margin-right: 30px;
+    border-radius: 100%;
+    display: flex;
+    height: 100px;
+    background-color: #30a7e2;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+
+}

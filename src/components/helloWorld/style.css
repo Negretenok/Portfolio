@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+.HELLOWORLD{
+    background-color: #1f1e1c;
+    height: 490px;
+    padding-top: 284px;
+    margin-bottom: -21px;
+}
+.helloWorld{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.HELLO{
+    color:white;
+    /* margin-top: -90px; */
+}
+.HELLO div h1{
+    font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.projects{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.projects1{
+    background-color: #30a7e2;
+    padding: 10px 20px;
+}
+.arrow-down {
+    font-size: 36px;
+    animation: bounce 1s infinite; /* Бесконечная анимация */
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    
+}
+.img{
+    width:363px;
+    height:280px;
+    /* background-color:white; */
+    /* padding-top: 100px; */
+}
+
+
+.d {
+    font-size: 30px;
+    font-weight: 700;
+    color: #30a7e2;
+  }
+  
+
+
+/* Анимация "прыжка" */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px); /* Подъем вверх */
+    }
+}
+

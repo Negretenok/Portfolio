@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family:"Geist Mono";
+    font-family:"Open Sans";
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1e1c;
+    padding: 25px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 1000;
+}
+.headerLogo img{
+    height: 50px;
+    width: 60px;
+}
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+}
+.navbarHead{
+    color: white;
+    background: none;
+    text-decoration: none;
+}
