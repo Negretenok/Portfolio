@@ -20,7 +20,7 @@ const Tools = () => {
 
                             </div>
                             <div class="card-face card-back"> 
-                                <img src='https://syhanoff.ru/wp-content/uploads/html.svg'></img>
+                                <img src='https://syhanoff.ru/wp-content/uploads/html.svg' alt='html'></img>
                                 <h3>HTML5</h3>
                                 <p>Каркас сайта, скелет. Делаем валидным и семантическим. Валидность — «уважают» другие веб-разработчики, а семантику «уважают» поисковики.</p>
                             </div>
@@ -32,7 +32,7 @@ const Tools = () => {
 
                             </div>
                             <div class="card-face card-back"> 
-                                <img src='https://syhanoff.ru/wp-content/uploads/css3.svg'></img>
+                                <img src='https://syhanoff.ru/wp-content/uploads/css3.svg' alt='css'></img>
                                 <h3>CSS3</h3>
                                 <p>Язык стилей, который постоянно развивается, совершенствуется. По факту это внешний вид сайта, его одежа. Графика и геометрия. Тут полет фантазий.</p>
                             </div>
@@ -44,7 +44,7 @@ const Tools = () => {
 
                             </div>
                             <div class="card-face card-back"> 
-                                <img src='https://syhanoff.ru/wp-content/uploads/javascript.svg'></img>
+                                <img src='https://syhanoff.ru/wp-content/uploads/javascript.svg' alt='js'></img>
                                 <h4>JAVA SCRIPT</h4>
                                 <p>Язык программирования, благодаря которому можно «оживить» что угодно: слайдеры, окна, подсказки, курсор мышки, вкладки, получение данных с сервера, расчеты и вычисления и многое другое.</p>
                             </div>
@@ -56,7 +56,7 @@ const Tools = () => {
 
                             </div>
                             <div class="card-face card-back"> 
-                                <img src={react} height='70'/>
+                                <img src={react} height='70' alt='react'/>
                                 <h4>React</h4>
                                 <p>Библиотека для создания динамичных интерфейсов с использованием компоненты и виртуального DOM, что улучшает производительность веб-приложений.</p>
                             </div>
@@ -70,7 +70,7 @@ const Tools = () => {
 
                                 </div>
                                 <div class="card-face card-back"> 
-                                    <img src={react} height='70'/>
+                                    <img src={react} height='70' alt='reactnative'/>
                                     <h4>React Native</h4>
                                     <p>Библиотека для создания динамичных интерфейсов с использованием компоненты и виртуального DOM, что улучшает производительность веб-приложений.</p>
                                 </div>
@@ -82,7 +82,7 @@ const Tools = () => {
 
                                 </div>
                                 <div class="card-face card-back"> 
-                                    <img src={logo} height='70' width='70'/>
+                                    <img src={logo} height='70' width='70' alt='logo'/>
                                     <h3>Еще что нибудь</h3>
                                     <p>Потом еще добавлю, когда научусь)</p>
                                 </div>
